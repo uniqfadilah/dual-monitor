@@ -1,0 +1,13 @@
+{
+  "name": "hasmato-dual-monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+  "start": "electron ."
+},
+  "dependencies": {
+    "electron": "^32.0.1"
+  }
+  
+}

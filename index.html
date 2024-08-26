@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasmato</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      color: #4CAF50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .container {
+      background-color: #2e2e2e;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    label {
+      font-size: 1.1em;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    input[type="text"] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #3e3e3e;
+      color: #ffffff;
+      font-size: 1em;
+    }
+
+    input[type="text"]::placeholder {
+      color: #aaaaaa;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: #ffffff;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hasmato</h1>
+    <label for="url1">Primary Monitor URL:</label>
+    <input type="text" id="url1" placeholder="Enter URL for Primary Monitor">
+
+    <label for="url2">Second Monitor URL:</label>
+    <input type="text" id="url2" placeholder="Enter URL for Second Monitor">
+
+    <button id="run-button">Run</button>
+  </div>
+
+  <script src="preload.js"></script>
+</body>
+</html>
